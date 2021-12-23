@@ -26,7 +26,7 @@ variable "owner-email" {
 # used to prefix resource names
 variable "agent-prefix" {
   type        = string
-  default     = "phocking"
+  default     = "phillhocking"
   description = "The prefix applied to all created resources to make them easily identifiable."
 
   validation {
