@@ -4,6 +4,8 @@ module "eks" {
   cluster_version = "1.20"
   subnets         = module.vpc.private_subnets
 
+#comment
+
   tags = {
     Environment = "training"
     GithubRepo  = "terraform-aws-eks"
